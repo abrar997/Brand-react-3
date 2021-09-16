@@ -12,7 +12,7 @@ margin-top: -20px;
 
 }
 .brand {
-  background-image: url("./components/images/backlogo.jpg");
+  background-image: url("../images/backlogo.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   margin: auto;
@@ -57,7 +57,7 @@ margin-top: -20px;
 .nav-item:before {
   content: "";
   position: absolute;
-  width: 100px;
+  width: 120px;
   height: 3px;
   bottom: 0;
   background: rgb(233, 187, 195);

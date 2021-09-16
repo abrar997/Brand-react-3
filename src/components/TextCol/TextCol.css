@@ -1,0 +1,43 @@
+.Text{margin-bottom: 130px;
+/* box-shadow: 1px 1px 18px rgb(184, 75, 91); */
+}
+.Text .container .row h3 {
+  color: rgb(59, 48, 158);
+  margin: auto;
+  margin-top: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.Text .container .row p {
+  color: rgb(184, 75, 91);
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 19px;
+  margin-bottom: 50px;
+  font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+  margin-top: 10px;
+  background-color: white;
+  text-align: center;
+}
+.Text img{margin-top: -140px;}
+
+.Text .btn {
+  background: linear-gradient(to left, rgb(59, 48, 158), rgb(214, 72, 100));
+  color: white;
+  border-radius: 24px;
+  padding: 10px;
+  width: 150px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 30px;
+  margin: auto;
+  margin-left: 200px;
+}
+.Text .btn:hover {
+  background: rgb(59, 48, 158);
+  color: white;
+}

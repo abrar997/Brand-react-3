@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Handlee&family=Sawarabi+Mincho&display=swap");
+
+.Features {
+  background-image: url("../images/backgroundFeatures.webp");
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.Features .container .row {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+}
+
+.Features .container .row h1 {
+  color: rgb(59, 48, 158);
+  margin: auto;
+  margin-top: 30px;
+  font-size: 38px;
+}
+.Features .container .row p {
+  color: rgb(59, 48, 158);
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+  margin-top: 10px;
+  background-color: white;
+}
+.Features .container .row .cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  /* width: 500px; */
+  margin: auto;
+}
+.Features .container .row .item {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  border: 1px solid rgb(223, 223, 223);
+  background-color: white;
+  margin-top: 10px;
+  box-sizing: border-box;
+  margin-left: px;
+  padding: 10px;
+  cursor: pointer;
+}
+.Features .container .row .item:hover {
+  box-shadow: 1px 1px 18px rgb(197, 190, 190);
+  transform: scale(1.04);
+  transition: all 0.6s ease;
+  border: none;
+}
+
+.Features .container .row .item p {
+  font-size: 18px;
+  color: rgb(59, 48, 158);
+  font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+  margin-top: 10px;
+}
+
+.Features .container .row .item h3 {
+  font-size: 25px;
+  color: rgb(184, 75, 91);
+  font-weight: 600;
+  padding-top: 4px;
+}
+
+.Features .container .row .item h3 i {
+  color: rgb(59, 48, 158);
+}

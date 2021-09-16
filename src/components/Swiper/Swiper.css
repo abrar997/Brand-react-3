@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+.swiper .container .row {
+  margin-top: 150px;
+  text-align: center;
+  /* font-family: "Dancing Script", cursive; */  
+}
+
+.swiper .container .row h2{  color: rgb(59, 48, 158);
+font-size: 38px;
+}
+.swiper .container .row p{color: rgb(184, 75, 91);
+font-weight: 600;
+text-transform: capitalize;
+font-size: 19px;}
+
+.swiper{height: 500px;}
+
+.images >img {margin-left: 70px;
+margin-top: -50px;
+}
+

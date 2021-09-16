@@ -1,0 +1,211 @@
+/* #fff8fe */
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Handlee&family=Sawarabi+Mincho&display=swap");
+
+.contact {
+  background-color: #fff8fe;
+  margin-top: 10px;
+  height: 700px;
+  font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+  border-bottom: 2px solid rgb(216, 215, 215);
+}
+.contact .background {
+  display: flex;
+  min-height: 750px;
+}
+
+.contact .container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+.contact .app-contact p {
+  color: rgb(148, 96, 105);
+  font-weight: 600;
+  margin-top: 40px;
+  font-size: 23px;
+}
+
+.contact .app-contact ul li {
+  margin-top: 20px;
+}
+.contact .app-contact ul {
+  font-size: 18px;
+  color: #888;
+  direction: ltr;
+  list-style-type: none;
+  margin-left: -80px;
+  margin-top: -20px;
+}
+.contact .app-contact ul li a {
+  color: gray;
+  font-weight: 600;
+  margin-top: -30px;
+  word-spacing: 3px;
+  margin-left: 10px;
+}
+.contact .app-contact ul li svg {
+  background-color: rgb(148, 96, 105);
+  color: white;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  padding: 6px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.contact .screen {
+  position: relative;
+  background: white;
+  box-shadow: 1px 1px 15px rgb(187, 187, 187);
+  border-radius: 15px;
+}
+
+.contact .screen:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgb(59, 48, 158);
+  z-index: -1;
+}
+
+.contact .screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(148, 96, 105);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.contact .screen-header-button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: rgb(128, 127, 127);
+}
+
+.contact .screen-header-button.close {
+  background: rgb(202, 185, 188);
+}
+
+.contact .screen-header-button.maximize {
+  background: white;
+}
+
+.contact .screen-header-button.minimize {
+  background: #c4c4c4;
+}
+/* 
+.contact .screen-header-right {
+  display: flex;
+}
+
+.contact .screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+} */
+
+.contact .screen-body {
+  display: flex;
+}
+
+.contact .screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.contact .screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ea1d6f;
+  font-size: 26px;
+}
+
+.contact .app-title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #ea1d6f;
+}
+
+.contact .app-form-group {
+  margin-bottom: 45px;
+}
+
+.contact .app-form-group.message {
+  margin-top: 40px;
+}
+
+.contact .app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.contact .app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: rgb(19, 19, 87);
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.contact .app-form-control::placeholder {
+  color: rgb(187, 184, 184);
+}
+
+.contact .app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.contact .app-form-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(148, 96, 105);
+  padding: 5px;
+  border-radius: 20px;
+  width: 100px;
+  margin-right: 10px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+
+.contact .app-form-button:hover {
+  color: white;
+  background-color: rgb(158, 74, 88);
+}
+/* .contact button {background-color: rgb(148, 96, 105)} */
+
+.footer {
+  padding-top: 50px;
+}

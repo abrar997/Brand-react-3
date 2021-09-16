@@ -1,0 +1,113 @@
+/* #fff8fe */
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Handlee&family=Sawarabi+Mincho&display=swap");
+.plan {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 100px;
+}
+
+.plan .container .row h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(59, 48, 158);
+  /* font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+   */
+}
+
+.plan .container .row p {
+  text-align: center;
+  margin: auto;
+  font-size: 21px;
+  color: rgb(59, 48, 158);
+  font-weight: 600;
+  margin: 20px 0px 40px 0px;
+}
+
+.plan .container .row .cards {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  text-align: center;
+  /* background-color: #fff8fe ; */
+  margin-left: -60px;
+}
+
+.plan .container .row .cards .card {
+  border-radius: 10px;
+  height: 600px;
+  width: 430px;
+  border: 1px solid #eee;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff8fe;
+  box-shadow: 1px 1px 13px rgb(219, 191, 196);
+  transition: all 0.4s ease;
+}
+
+.plan .container .row .cards .card:hover {
+  background-color: white;
+}
+.plan .container .row .cards .card span {
+  border: 1px solid rgb(148, 96, 105);
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+  padding: 5px;
+  width: 150px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: -10px;
+  margin-left: 70px;
+}
+
+.plan .container .row .cards .card p {
+  font-size: 23px;
+  color: rgb(148, 96, 105);
+  font-weight: 600;
+  font-size: 29px;
+}
+
+.plan .container .row .cards .card h4 {
+  color: rgb(59, 48, 158);
+  margin-top: -30px;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.plan .container .row .cards .card ul {
+  list-style-type: none;
+  margin-right: 29px;
+}
+
+.plan .container .row .cards .card ul li {
+  margin-top: 17px;
+}
+.plan .container .row .cards .card ul li a {
+  color: rgb(148, 96, 105);
+  line-height: 20px;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.plan .container .row .cards .card button {
+  background-color: rgb(148, 96, 105);
+  color: white;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}

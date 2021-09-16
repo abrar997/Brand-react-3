@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Handlee&family=Sawarabi+Mincho&display=swap");
+footer {
+  font-family: "Arima Madurai", cursive;
+  font-family: "Handlee", cursive;
+  margin-top: -60px;
+}
+/* font-family: "Dancing Script", cursive; */
+footer .logo {
+  color: rgb(20, 17, 53);
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+footer .mu {
+  font-family: "Dancing Script", cursive;
+  color: rgb(184, 75, 91);
+}
+footer ul li a {
+  color: rgb(59, 48, 158) !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+footer h6 {
+  color: rgb(32, 21, 148);
+  font-weight: 600;
+  font-size: 21px;
+  width: 140px;
+}
+footer p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(184, 75, 91);
+}
+
+.copyright p {
+  color: gray;
+}
+/* footer .copyright{background-color: rgb(29, 23, 97);
+color: white;} */
+
+/* footer .copyright p{color: rgb(230, 221, 221);} */

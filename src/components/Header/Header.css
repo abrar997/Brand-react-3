@@ -1,0 +1,50 @@
+header {
+  border-bottom: 3px solid rgb(245, 238, 237);
+}
+header .container .row .headerright {
+  background-image: url("../../components/images/back.png");
+  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 600px;
+  margin-right: -300px;
+  margin-top: -50px;
+}
+
+.headerleft h1 {
+  margin-top: 110px;
+  text-transform: capitalize;
+  color: rgb(59, 48, 158);
+  margin-left: -30px;
+}
+
+.headerleft p {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-left: -27px;
+}
+
+.headerleft .btn {
+  background: linear-gradient(to left, rgb(59, 48, 158), rgb(214, 72, 100));
+  color: white;
+  border-radius: 24px;
+  padding: 10px;
+  width: 150px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.headerleft .btn:hover {
+  background: rgb(59, 48, 158);
+  color: white;
+}
+
+.headerleft img {
+  opacity: 0.3;
+  width: 50%;
+  margin-right: -0px;
+}
+
+/* header{box-shadow: 1px 1px 19px rgb(214, 213, 213);} */
