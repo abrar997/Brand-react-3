@@ -44,7 +44,7 @@ export class About extends Component {
         >
           <div className="container">
             <div className="row">
-              <div className="col-lg-5 mt-4 pt-4 left">
+              <div className="col-lg-5 col-sm-12 col-md-12 mt-4 pt-4 left">
                 <img
                   src={imgplan}
                   style={{
@@ -66,7 +66,7 @@ export class About extends Component {
                 <div className="btn">explore us </div>
                 <img src={img}></img>
               </div>
-              <div className="col-lg-9 right ml-4 "> </div>
+              <div className="col-lg-8 right ml-4 col-sm-5 col-md-7"> </div>
             </div>
           </div>
         </header>

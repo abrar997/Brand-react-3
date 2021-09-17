@@ -25,7 +25,7 @@ export class Swiper extends Component {
                 </p>
               </div>
 
-              <div className="images mt-4 pt-4">
+              <div className="images mt-4 pt-4 col-sm-12" >
                     <img src={img1} alt="..." /> <img src={img2} alt="..." />
                     <img src={img3} alt="..." />
                     <img src={img4} alt="..." />

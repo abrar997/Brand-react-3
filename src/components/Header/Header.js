@@ -13,7 +13,7 @@ export class Header extends Component {
         >
           <div className="container">
             <div className="row">
-              <div className="col-lg-5 mt-4 pt-4 headerleft">
+              <div className="col-lg-5 mt-4 pt-4 headerleft col-sm-12 col-md-12">
                 <img
                   src={imgplan}
                   style={{
@@ -30,7 +30,7 @@ export class Header extends Component {
                 <div className="btn">explore us </div>
                 <img src={img}></img>
               </div>
-              <div className="col-lg-9 headerright ml-4 "></div>
+              <div className="col-lg-9 headerright ml-4  col-sm-8 "></div>
             </div>
           </div>
         </header>

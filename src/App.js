@@ -11,12 +11,8 @@ import {
 } from "react-router-dom";
 
 // import components
-// import Home from "./components/Home/Home";
-
-// links
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
-// import Features from "./components/Features/Features";
 import FeatureLink from "./components/FeatureLink/FeatureLink";
 import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound";
@@ -25,8 +21,6 @@ export class App extends Component {
   render() {
     return (
       <div>
-        {/* NavLink same Link but NavLink add class active to link you can change name of class by  activeClassName=""  */}
-        {/* Fragment and Router  same work with BrowserRouter */}
         <BrowserRouter>
           <div className="nav" data-aos="fade-down-left">
             <div className="container">
@@ -50,7 +44,19 @@ export class App extends Component {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                   >
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon">
+                      <i className="bi bi-border-width"></i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="36"
+                        height="36"
+                        fill="currentColor"
+                        className="bi bi-border-width"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
+                      </svg>
+                    </span>
                   </button>
                   <div
                     className="collapse navbar-collapse"
@@ -99,8 +105,6 @@ export class App extends Component {
             </div>
           </div>
 
-          
-          
           <Switch>
             {/* when web open home will work :problem is solved  */}
             <Route path="/" component={Home} exact />
@@ -110,9 +114,6 @@ export class App extends Component {
             <Route path="/Contact" component={Contact} exact />
             <Route component={NotFound} exact />
           </Switch>
-
-
-
         </BrowserRouter>
       </div>
     );

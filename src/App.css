@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Handlee&family=Sawarabi+Mincho&display=swap");
 /* body{font-family: "Dancing Script", cursive;
 } */
-.nav{box-shadow: 1px 1px 18px rgb(197, 194, 194);
-height: 136px;
-/* position: fixed; 
+.nav {
+  box-shadow: 1px 1px 18px rgb(197, 194, 194);
+  height: 136px;
+  /* position: fixed; 
  right: 0;
 left: 0;
 top: 0; */
-margin-top: -20px;
-
+  margin-top: -20px;
 }
 .brand {
   background-image: url("./components/images/backlogo.jpg");
@@ -20,7 +20,12 @@ margin-top: -20px;
   /* width:200px; */
   margin-left: -40px;
   margin-top: 20px;
-
+}
+.navbar-toggler {
+  background-color: white;
+  margin-left: 60px;
+  z-index: 110;
+  position: absolute;
 }
 .navbar-brand {
   font-family: "Dancing Script", cursive;
@@ -65,14 +70,334 @@ margin-top: -20px;
   border-radius: 5px;
   transform: scaleX(0);
   transition: 0.25s linear;
-top: 100px;}
+  top: 100px;
+}
 .nav-item:hover:before,
 .nav-item:focus:before {
   visibility: visible;
   transform: scaleX(1);
 }
-.bi-person{margin-top: 37px;
-margin-left: 20px;
-color: rgb(233, 187, 195);
-cursor: pointer;
+.bi-person {
+  margin-top: 37px;
+  margin-left: 20px;
+  color: rgb(233, 187, 195);
+  cursor: pointer;
+}
+
+
+/* 0px to 567px */
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .nav {
+    background-color: rgb(148, 96, 105);
+    position: relative;
+  }
+  .brand {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 19px;
+  }
+  .navbar-toggler {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    right: -200px;
+    top: 60px;
+  }
+
+  .navbar-toggler-icon {
+    color: rgb(158, 110, 119) !important;
+  }
+
+  .navbar-nav {
+    margin-left: -560px;
+    transition: all 0.6s ease;
+  }
+  .nav button {
+    position: absolute;
+    top: 65px;
+    width: 70px;
+    left: 320px;
+  }
+
+  .nav .navbar-nav {
+    position: relative;
+    background-color: rgb(148, 96, 105);
+    left: -70px;
+    width: 500px;
+    top: -20px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    transition: all 0.6;
+  }
+
+  .container .row nav .collapse .nav-item .nav-link {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    margin-left: 10px;
+    transition: all 0.6s ease;
+  }
+  .nav-item:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: -30px;
+    background: rgb(34, 15, 19);
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.25s linear;
+    top: 100px;
+  }
+  header {
+    margin-top: 40px;
+  }
+  .container .bi-person {
+    width: 26px;
+
+    height: 26px;
+    margin-left: -5px;
+    margin-top: 40px;
+  }
+}
+
+
+/*567px to 768px */
+@media all and (min-width: 552px) and (max-width: 768px) {
+  .nav {
+    background-color: rgb(148, 96, 105);
+    position: relative;
+  }
+  .brand {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 19px;
+  }
+  .navbar-toggler {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    top: 60px;
+  }
+
+  .navbar-toggler-icon {
+    color: rgb(158, 110, 119) !important;
+  }
+
+  .navbar-nav {
+    margin-left: -520px;
+    transition: all 0.6s ease;
+  }
+  .nav button {
+    position: absolute;
+    top: 65px;
+    width: 70px;
+    left: 320px;
+  }
+
+  .nav .navbar-nav {
+    position: relative;
+    background-color: rgb(148, 96, 105);
+    left: -70px;
+    width: 500px;
+    top: -20px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    transition: all 0.6;
+  }
+
+  .container .row nav .collapse .nav-item .nav-link {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    margin-left: 10px;
+    transition: all 0.6s ease;
+  }
+  .nav-item:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: -30px;
+    background: rgb(34, 15, 19);
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.25s linear;
+    top: 100px;
+  }
+  header {
+    margin-top: 40px;
+  }
+  .container .bi-person {
+    width: 26px;
+
+    height: 26px;
+    margin-left: -5px;
+    margin-top: 40px;
+  }
+}
+
+/* 768px to 992px */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .nav {
+    background-color: rgb(148, 96, 105);
+    position: relative;
+  }
+  .brand {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+  }
+  .navbar-toggler {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    top: 60px;
+  }
+  .navbar-toggler-icon {
+    color: rgb(158, 110, 119) !important;
+  }
+
+  .navbar-nav {
+    margin-left: -520px;
+    transition: all 0.6s ease;
+  }
+  .nav button {
+    position: absolute;
+    top: 65px;
+    width: 70px;
+    left: 500px;
+  }
+
+  .nav .navbar-nav {
+    position: relative;
+    background-color: rgb(148, 96, 105);
+    left: -190px;
+    width: 900px;
+    top: -20px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    transition: all 0.6;
+    padding-left: 200px;
+  }
+
+  .container .row nav .collapse .nav-item .nav-link {
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+    transition: all 0.6s ease;
+    text-align: center;
+  }
+  .nav-item:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: -30px;
+    background: rgb(34, 15, 19);
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.25s linear;
+    top: 100px;
+  }
+
+  .container .bi-person {
+    width: 30px;
+
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 40px;
+  }
+}
+/*  992px  to 1200px */
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .nav {
+    background-color: rgb(148, 96, 105);
+    position: relative;
+  }
+  .brand {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+  }
+  .navbar-toggler {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    top: 60px;
+  }
+
+  .navbar-nav {
+    margin-left: -520px;
+    transition: all 0.6s ease;
+  }
+
+  .nav .navbar-nav {
+    position: relative;
+    left: -50px;
+    width: 900px;
+    top: -20px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    transition: all 0.6;
+    padding-left: 200px;
+  }
+
+  .container .row nav .collapse .nav-item .nav-link {
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+    transition: all 0.6s ease;
+    text-align: center;
+  }
+  .nav-item:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: -30px;
+    background: rgb(238, 232, 232);
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.25s linear;
+    top: 100px;
+    margin-left: 10px;
+  }
+
+  .container .bi-person {
+    width: 30px;
+
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 40px;
+  }
 }

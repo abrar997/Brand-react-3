@@ -27,3 +27,107 @@
   font-weight: 600;
   font-size: 28px;
 }
+
+/*0px t0 552px  */
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .gif {
+    margin-top: -10px;
+    margin-top: 120px;
+  }
+  .gif h1 {
+    font-size: 12px;
+    margin-top: -0px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .gif p {
+    font-size: 10px;
+  }
+  .gif p a {
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  .gif img {
+    width: 46%;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/*  552px to 768px */
+@media all and (min-width: 553px) and (max-width: 768px) {
+  .gif {
+    margin-top: -10px;
+    margin-top: 120px;
+  }
+  .gif h1 {
+    font-size: 14px;
+    margin-top: -0px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .gif p {
+    font-size: 10px;
+  }
+  .gif p a {
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  .gif img {
+    width: 46%;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/*   768px  to 992px*/
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .gif {
+    margin-top: -10px;
+    margin-top: 120px;
+  }
+  .gif h1 {
+    font-size: 17px;
+    margin-top: -0px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .gif p {
+    font-size: 14px;
+  }
+  .gif p a {
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  .gif img {
+    width: 66%;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/*   992px to 1200px*/
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .gif {
+    margin-top: -10px;
+    margin-top: 120px;
+  }
+  .gif h1 {
+    font-size: 20px;
+    margin-top: -0px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .gif p {
+    font-size: 16px;
+  }
+  .gif p a {
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  .gif img {
+    width: 66%;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}

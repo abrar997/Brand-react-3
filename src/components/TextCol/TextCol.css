@@ -1,5 +1,6 @@
-.Text{margin-bottom: 130px;
-/* box-shadow: 1px 1px 18px rgb(184, 75, 91); */
+.Text {
+  margin-bottom: 130px;
+  /* box-shadow: 1px 1px 18px rgb(184, 75, 91); */
 }
 .Text .container .row h3 {
   color: rgb(59, 48, 158);
@@ -22,7 +23,9 @@
   background-color: white;
   text-align: center;
 }
-.Text img{margin-top: -140px;}
+.Text img {
+  margin-top: -140px;
+}
 
 .Text .btn {
   background: linear-gradient(to left, rgb(59, 48, 158), rgb(214, 72, 100));
@@ -40,4 +43,89 @@
 .Text .btn:hover {
   background: rgb(59, 48, 158);
   color: white;
+}
+
+/* 0px to 552px */
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .Text img {
+    width: 70%;
+    margin-top: -30px;
+    margin-left: 70px;
+  }
+  .Text .container .row h3 {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .Text .container .row p {
+    font-size: 17px;
+  }
+  .Text .container .row .btn {
+    margin: auto;
+    margin-left: 140px;
+  }
+}
+
+/*  553px to 768px */
+@media all and (min-width: 553px) and (max-width: 768px) {
+  .Text img {
+    width: 20%;
+    margin-top: -30px;
+    margin-left: 70px;
+  }
+  .Text .container .row h3 {
+    font-size: 20px;
+  }
+  .Text .container .row p {
+    font-size: 17px;
+  }
+  .Text .container .row .btn {
+    margin: auto;
+    margin-left: 240px;
+  }
+}
+
+/*  768px to 992px */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .Text {
+    margin-top: -100px;
+  }
+  .Text img {
+    width: 70%;
+    margin-top: -30px;
+    margin-left: 70px;
+  }
+  .Text .container .row h3 {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+  .Text .container .row p {
+    font-size: 17px;
+  }
+  .Text .container .row .btn {
+    margin: auto;
+    margin-left: 260px;
+  }
+}
+
+/*  992px to 1200px */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Text {
+    margin-top: -130px;
+  }
+  .Text img {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .Text .container .row h3 {
+    margin-top: 40px;
+    font-size: 26px;
+  }
+  .Text .container .row p {
+    font-size: 19px;
+  }
+  .Text .container .row .btn {
+    margin: auto;
+    margin-left: 140px;
+  }
 }

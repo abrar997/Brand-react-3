@@ -76,3 +76,89 @@
 .Features .container .row .item h3 i {
   color: rgb(59, 48, 158);
 }
+
+/* 0px to 552px*/
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .Features {
+    margin-top: -50px;
+  }
+
+  .Features .container .row h1 {
+    font-size: 25px;
+  }
+  .Features .container .row p {
+    font-size: 15px;
+  }
+  .Features .container .row .item p {
+    font-size: 13px;
+  }
+
+  .Features .container .row .item h3 {
+    font-size: 19px;
+  }
+}
+/*  553px to 768px */
+@media all and (min-width: 553px) and (max-width: 768px) {
+  .Features {
+    margin-top: -50px;
+  }
+
+  .Features .container .row h1 {
+    font-size: 28px;
+  }
+  .Features .container .row p {
+    font-size: 17px;
+  }
+  .Features .container .row .item p {
+    font-size: 15px;
+  }
+
+  .Features .container .row .item h3 {
+    font-size: 19px;
+  }
+  .Features {
+    margin-bottom: 500px;
+  }
+}
+
+/*  768px to 992px */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .Features {
+    margin-top: -50px;
+    margin-bottom: 300px;
+  }
+
+  .Features .container .row h1 {
+    font-size: 28px;
+  }
+  .Features .container .row p {
+    font-size: 17px;
+  }
+  .Features .container .row .item p {
+    font-size: 15px;
+  }
+
+  .Features .container .row .item h3 {
+    font-size: 19px;
+  }
+}
+
+/*   992px to 1200px */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Features {
+    margin-top: -50px;
+  }
+  .Features .container .row h1 {
+    font-size: 30px;
+  }
+  .Features .container .row p {
+    font-size: 17px;
+  }
+  .Features .container .row .item p {
+    font-size: 15px;
+  }
+
+  .Features .container .row .item h3 {
+    font-size: 19px;
+  }
+}

@@ -3,20 +3,113 @@
 .swiper .container .row {
   margin-top: 150px;
   text-align: center;
-  /* font-family: "Dancing Script", cursive; */  
+  /* font-family: "Dancing Script", cursive; */
 }
 
-.swiper .container .row h2{  color: rgb(59, 48, 158);
-font-size: 38px;
+.swiper .container .row h2 {
+  color: rgb(59, 48, 158);
+  font-size: 38px;
 }
-.swiper .container .row p{color: rgb(184, 75, 91);
-font-weight: 600;
-text-transform: capitalize;
-font-size: 19px;}
-
-.swiper{height: 500px;}
-
-.images >img {margin-left: 70px;
-margin-top: -50px;
+.swiper .container .row p {
+  color: rgb(184, 75, 91);
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 19px;
 }
 
+.swiper {
+  height: 500px;
+}
+
+.images > img {
+  margin-left: 70px;
+  margin-top: -50px;
+}
+
+/* 0px to 552px */
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .swiper {
+    margin-top: -360px;
+  }
+  .swiper .container .row h2 {
+    font-size: 28px;
+  }
+  .swiper .container .row p {
+    font-size: 15px;
+  }
+  .images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: -50px;
+  }
+  .swiper img {
+    margin-top: 10px;
+  }
+}
+
+/*567px to 768px */
+@media all and (min-width: 552px) and (max-width: 768px) {
+  .swiper {
+    margin-top: 160px;
+  }
+  .swiper .container .row h2 {
+    font-size: 28px;
+  }
+  .swiper .container .row p {
+    font-size: 15px;
+  }
+  .images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: -50px;
+  }
+  .swiper img {
+    margin-top: 10px;
+  }
+}
+
+/* 768px to 992px */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .swiper {
+    margin-top: 160px;
+  }
+  .swiper .container .row h2 {
+    font-size: 28px;
+  }
+  .swiper .container .row p {
+    font-size: 15px;
+  }
+  .images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: -50px;
+  }
+  .swiper img {
+    margin-top: 10px;
+  }
+}
+
+/*  992px to 1200px */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .swiper {
+    margin-top: 160px;
+  }
+  .swiper .container .row h2 {
+    font-size: 34px;
+  }
+  .swiper .container .row p {
+    font-size: 19px;
+  }
+  .images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: -10px;
+  }
+  .swiper img {
+    margin-top: 10px;
+  }
+}

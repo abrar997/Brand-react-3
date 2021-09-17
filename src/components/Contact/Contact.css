@@ -104,18 +104,6 @@
 .contact .screen-header-button.minimize {
   background: #c4c4c4;
 }
-/* 
-.contact .screen-header-right {
-  display: flex;
-}
-
-.contact .screen-header-ellipsis {
-  width: 3px;
-  height: 3px;
-  margin-left: 2px;
-  border-radius: 8px;
-  background: #999;
-} */
 
 .contact .screen-body {
   display: flex;
@@ -208,4 +196,117 @@
 
 .footer {
   padding-top: 50px;
+}
+
+/*0px t0 552px  */
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .contact .background {
+    font-size: xx-small;
+    margin-top: 100px;
+  }
+
+  .contact .app-contact p {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  .contact .app-contact ul li a {
+    font-size: 14px;
+  }
+  .contact .app-contact ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-left: -10px;
+    display: none;
+  }
+
+  .contact .buttons {
+    margin-left: -50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
+
+/*553px to 768px*/
+@media all and (min-width: 553px) and (max-width: 768px) {
+  .contact .background {
+    margin-top: -20px;
+  }
+
+  .contact .app-contact p {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  .contact .app-contact ul li a {
+    font-size: 14px;
+  }
+  .contact .app-contact ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-left: -10px;
+    display: none;
+  }
+
+  .contact .buttons {
+    margin-left: -50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
+
+/*768px to 992px*/
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .contact .background {
+    margin-top: -20px;
+  }
+
+  .contact .app-contact p {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  .contact .app-contact ul li a {
+    font-size: 14px;
+  }
+  .contact .app-contact ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-left: -10px;
+    display: none;
+  }
+
+  .contact .buttons {
+    margin-left: -50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
+
+/*992px to 1200px*/
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .contact .background {
+    margin-top: -50px;
+  }
+
+  .contact .app-contact p {
+    font-size: 24px;
+    margin-left: -10px;
+  }
+  .contact .app-contact ul li a {
+    font-size: 19px;
+  }
+  .contact .app-contact ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-left: -10px;
+    display: none;
+  }
+
+  .contact .buttons {
+    margin-left: -50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
 }

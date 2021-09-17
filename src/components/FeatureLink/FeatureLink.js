@@ -40,10 +40,11 @@ export class FeatureLink extends Component {
   render() {
     return (
       <div className="about">
-        <Features data={this.state.Features} />
+        <div className="Dtaata">
+          <Features data={this.state.Features} />
+        </div>
         <Ask />
         <Plan />
-
         <Footer />
       </div>
     );

@@ -1,8 +1,10 @@
-.BetterText {padding-top: 40px;
-border-top: 1px solid rgb(59, 48, 158);
-border-bottom:1px solid rgb(59, 48, 158) ;
-border-radius: 20px;
-padding: 40px;}
+.BetterText {
+  padding-top: 40px;
+  border-top: 1px solid rgb(59, 48, 158);
+  border-bottom: 1px solid rgb(59, 48, 158);
+  border-radius: 20px;
+  padding: 40px;
+}
 
 .BetterText .btn {
   background: linear-gradient(to left, rgb(59, 48, 158), rgb(214, 72, 100));
@@ -21,14 +23,106 @@ padding: 40px;}
   background: rgb(59, 48, 158);
   color: white;
 }
-.BetterText .container .row h1{color: rgb(59, 48, 158);
-    margin-top: 130px;
+.BetterText .container .row h1 {
+  color: rgb(59, 48, 158);
+  margin-top: 130px;
 }
 
-.BetterText .container .row p{  color: rgb(184, 75, 91);
-text-transform: capitalize;
-font-weight: 600;}
-.BetterText img{width: 96%;
-margin-left: 30px;
-margin-top: 60px;
+.BetterText .container .row p {
+  color: rgb(184, 75, 91);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.BetterText img {
+  width: 96%;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+/* 0px to 552px*/
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .BetterText {
+    margin-top: 300px;
+    border: none;
+    text-align: center;
+  }
+
+  .BetterText h1 {
+    font-size: 23px;
+  }
+  .BetterText p {
+    font-size: 14px;
+  }
+  .BetterText .btn {
+    font-size: 10px;
+  }
+  .BetterText img {
+    margin-left: -40px;
+  }
+}
+
+/* 552px to 768px*/
+@media all and (min-width: 552px) and (max-width: 768px) {
+  .BetterText {
+    margin-top: -190px;
+    border: none;
+    text-align: center;
+  }
+
+  .BetterText h1 {
+    font-size: 23px;
+  }
+  .BetterText p {
+    font-size: 14px;
+  }
+  .BetterText .btn {
+    font-size: 10px;
+  }
+  .BetterText img {
+    margin-left: -40px;
+  }
+}
+
+/* 768px to 992px*/
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .BetterText {
+    margin-top: -90px;
+    border: none;
+    text-align: center;
+  }
+
+  .BetterText h1 {
+    font-size: 23px;
+  }
+  .BetterText p {
+    font-size: 14px;
+  }
+  .BetterText .btn {
+    font-size: 10px;
+  }
+  .BetterText img {
+    margin-left: 80px;
+  }
+}
+
+/* 992px to 1200px*/
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .BetterText {
+    margin-top: 300px;
+    border: none;
+    text-align: center;
+  }
+
+  .BetterText h1 {
+    font-size: 23px;
+  }
+  .BetterText p {
+    font-size: 14px;
+  }
+  .BetterText .btn {
+    font-size: 10px;
+  }
+  .BetterText img {
+    margin-left: -40px;
+  }
 }

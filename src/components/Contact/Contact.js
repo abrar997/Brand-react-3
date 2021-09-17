@@ -11,7 +11,7 @@ export class Contact extends Component {
           data-aos-easing="linear"
           data-aos-duration="3600"
         >
-          <div className="background">
+          <div className="background ">
             <div className="container">
               <div className="screen">
                 <div className="screen-header">

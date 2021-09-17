@@ -111,3 +111,176 @@
   outline: none;
   text-transform: capitalize;
 }
+.plan .container .row .cards .card button:hover {
+  background-color: rgb(82, 24, 34);
+}
+
+/* 0px to 552px */
+@media all and (min-width: 0px) and (max-width: 552px) {
+  .plan .container .row h1 {
+    font-size: 27px;
+  }
+
+  .plan .container .row p {
+    font-size: 17px;
+  }
+  .plan .container .row .cards {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+  }
+  .plan .cards .card {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .plan .container .row .cards .card span {
+    margin-left: 120px;
+    font-size: 12px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 14px;
+  }
+  .plan .container .row .cards .card h4 {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 13px;
+  }
+  .plan .container .row .cards .card ul li a {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card button {
+    font-size: 16px;
+    width: 180px;
+    margin-left: 100px;
+  }
+}
+
+/*  553px to 768px */
+@media all and (min-width: 553px) and (max-width: 768px) {
+  .plan .container .row h1 {
+    font-size: 27px;
+  }
+
+  .plan .container .row p {
+    font-size: 17px;
+  }
+  .plan .container .row .cards {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+  }
+  .plan .cards .card {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .plan .container .row .cards .card span {
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 14px;
+  }
+  .plan .container .row .cards .card h4 {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 13px;
+  }
+  .plan .container .row .cards .card ul li a {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card button {
+    font-size: 13px;
+    width: 180px;
+    margin-left: 30px;
+  }
+}
+
+/*  768px to 992px */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .plan .container .row h1 {
+    font-size: 30px;
+    color: rgb(148, 96, 105);
+  }
+
+  .plan .container .row p {
+    font-size: 17px;
+  }
+  .plan .container .row .cards {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+  }
+  .plan .cards .card {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .plan .container .row .cards .card span {
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 14px;
+  }
+  .plan .container .row .cards .card h4 {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 13px;
+  }
+  .plan .container .row .cards .card ul li a {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card button {
+    font-size: 13px;
+    width: 180px;
+    margin-left: 30px;
+  }
+}
+
+/*  992px to 1200px */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .plan .container .row h1 {
+    font-size: 30px;
+    color: rgb(148, 96, 105);
+  }
+
+  .plan .container .row p {
+    font-size: 17px;
+  }
+  .plan .container .row .cards {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+  }
+  .plan .cards .card {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .plan .container .row .cards .card span {
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 14px;
+  }
+  .plan .container .row .cards .card h4 {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card p {
+    font-size: 13px;
+  }
+  .plan .container .row .cards .card ul li a {
+    font-size: 15px;
+  }
+  .plan .container .row .cards .card button {
+    font-size: 13px;
+    width: 150px;
+    margin-left: 20px;
+  }
+}

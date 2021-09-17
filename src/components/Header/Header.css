@@ -47,4 +47,131 @@ header .container .row .headerright {
   margin-right: -0px;
 }
 
-/* header{box-shadow: 1px 1px 19px rgb(214, 213, 213);} */
+/* 0px to 552px */
+@media all and (min-width: 0px) and (max-width: 552px) {
+  header {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    border-bottom: none;
+    margin-top: 40px;
+  }
+  header .container .row .headerright {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .headerleft h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: -500px;
+  }
+
+  .headerleft p {
+    text-align: center;
+    margin-top: 433px;
+  }
+}
+
+/* 553px to 768px */
+@media all and (min-width: 552px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    border-bottom: none;
+  }
+
+  .headerleft h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .headerleft p {
+    text-align: center;
+  }
+  header img {
+    margin-left: 50px;
+  }
+  .headerright {
+    display: none;
+  }
+
+  .headerleft .btn {
+    margin-left: 40px;
+  }
+}
+
+/*768px to 992px  */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    border-bottom: none;
+    margin-top: 50px;
+  }
+
+  .headerleft h1 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .headerleft p {
+    text-align: center;
+    font-size: 19px;
+  }
+  header img {
+    margin-left: 50px;
+  }
+  .headerright {
+    display: none;
+  }
+
+  .headerleft .btn {
+    margin-left: 140px;
+  }
+}
+
+/* 992px to 1200px */
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    border-bottom: none;
+  }
+  .headerleft {
+    margin: auto;
+  }
+
+  .headerleft h1 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .headerleft p {
+    text-align: center;
+    font-size: 19px;
+  }
+  header img {
+    margin-left: 50px;
+  }
+  .headerright {
+    display: none;
+  }
+
+  .headerleft .btn {
+    margin-left: 110px;
+  }
+}

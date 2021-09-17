@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 // import Home from "../Home/Home";
 export class NotFound extends Component {
   render() {
+    console.log(this.props);
+
     return (
       <div>
        <Fragment>

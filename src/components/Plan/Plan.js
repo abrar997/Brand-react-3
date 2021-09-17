@@ -55,7 +55,7 @@ export class Plan extends Component {
                 </p>
               </div>
                         <div className="cards " data-aos="fade-down">
-                <div className="card col-lg-3 ">
+                <div className="card col-lg-3 col-sm-8 ">
                   <span>{this.state.cardsInfo[0].Items}</span>
                   <p>{this.state.cardsInfo[0].price}</p>
                   <h4>{this.state.cardsInfo[0].text}</h4>
@@ -77,7 +77,7 @@ export class Plan extends Component {
                   <button>get started now</button>
                 </div>
 
-                <div className="card col-lg-3 ">
+                <div className="card col-lg-3 col-sm-8  ">
                   <span>{this.state.cardsInfo[1].Items}</span>
                   <p>{this.state.cardsInfo[1].price}</p>
                   <h4>{this.state.cardsInfo[1].text}</h4>
@@ -99,7 +99,7 @@ export class Plan extends Component {
                   <button>get started now</button>
                 </div>
 
-                <div className="card col-lg-3 ">
+                <div className="card col-lg-3 col-sm-8 ">
                   <span>{this.state.cardsInfo[2].Items}</span>
                   <p>{this.state.cardsInfo[2].price}</p>
                   <h4>{this.state.cardsInfo[2].text}</h4>
